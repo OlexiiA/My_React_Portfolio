@@ -17,6 +17,7 @@ import project2 from "./assets/images/Projects/img2.png";
 import project3 from "./assets/images/Projects/img3.png";
 import project4 from "./assets/images/Projects/img4.png";
 import project5 from "./assets/images/Projects/img5.png";
+import project6 from "./assets/images/Projects/img6.png";
 import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -70,11 +71,11 @@ export const content = {
     hero_content: [
       {
         count: "8+",
-        text: "Month of web development experience while studying",
+        text: "Months of web development experience while studying",
       },
       {
         count: "7+",
-        text: "Projects Worked in my career",
+        text: "Projects that I have done",
       },
     ],
   },
@@ -84,32 +85,32 @@ export const content = {
     skills_content: [
       {
         name: "HTML",
-        para: "Lorem ipsum text  dummy",
+        para: "Basic knowledge",
         logo: html,
       },
       {
         name: "CSS",
-        para: "Lorem ipsum text  dummy",
+        para: "Basic knowledge",
         logo: css,
       },
       {
         name: "JavaScript",
-        para: "Lorem ipsum text  dummy",
+        para: "Basic knowledge",
         logo: js,
       },
       {
         name: "React js",
-        para: "Lorem ipsum text  dummy",
+        para: "Basic knowledge",
         logo: reactjs,
       },
       {
         name: "ReactNative",
-        para: "Lorem ipsum text  dummy",
+        para: "Basic knowledge",
         logo: native,
       },
       {
         name: "Node js",
-        para: "Lorem ipsum text  dummy",
+        para: "Basic knowledge",
         logo: nodejs,
       },
     ],
@@ -126,12 +127,12 @@ export const content = {
       },
       {
         title: "Teamwork",
-        para: "The skill of teamwork helps employees to work effectively with different team compositions, share knowledge and experience, respect the opinions of others, improve the quality of decisions, increase productivity and achieve common goals of the company",
+        para: "Teamwork skills help me work effectively with different team compositions, share knowledge and experience, respect the opinions of others, improve the quality of my decisions, increase productivity and achieve the overall goals of the company.",
         logo: services_logo2,
       },
       {
         title: "reliability",
-        para: "The skill of reliability helps employees to perform their tasks on time and accurately, follow rules and procedures, take responsibility for their actions, respect confidentiality, and maintain a high level of professionalism, which increases the trust of management, colleagues, and clients and ensures success in their work.",
+        para: "Reliability skills help me complete my tasks in a timely and accurate manner, comply with rules, be accountable for my actions, respect confidentiality and maintain a high level of professionalism, which increases the trust of management, colleagues and clients and ensures success in my work.",
         logo: services_logo3,
       },
     ],
@@ -165,6 +166,11 @@ export const content = {
         title: "Web Studio",
         image: project5,
         link: "https://olexiia.github.io/goit-markup-hw-08/",
+      },
+      {
+        title: "ReactNative Mobile app",
+        image: project6,
+        link: "https://expo.dev/@olexii/mynewproject?serviceType=classic&distribution=expo-go",
       },
     ],
   },

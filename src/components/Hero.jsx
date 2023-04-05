@@ -12,7 +12,7 @@ const Hero = () => {
       right-0 
       bg-primaryLinear 
       bottom-0 -z-10">
-        <h1 className="rotate-90 absolute top-[40%] right-[-40%] text-[#EAF2FA] shrink">{hero.firstName}{" "}
+        <h1 className="md:rotate-90 sm:rotate-0 absolute sm:top-[5%] sm:right-[20%] md:top-[39%] md:right-[-40%]  text-[#EAF2FA]">{hero.firstName}{" "}
           <span className="text-dark_primary">{hero.LastName}</span>
         </h1>
       </div>

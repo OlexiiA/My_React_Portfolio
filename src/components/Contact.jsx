@@ -27,7 +27,7 @@ const Contact = () => {
 
   return <section className="bg-dark_primary text-white" id="contact">
     <Toaster />
-    <div className='md:container px-5 pt-14'>
+    <div className='md:container px-5 pt-14 pb-5'>
       <h2 className='title !text-white' data-aos="fade-down">{Contact.title}</h2>
       <h4 className='subtitle' data-aos="fade-down">{Contact.subtitle}</h4>
       <br />
