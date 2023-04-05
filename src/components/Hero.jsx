@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
 
       {/* second colone */}
-      <div className="md:h-[37rem] h-96" >
+      <div className="md:h-[37rem] sm:h[30rem] h-96" >
         <img src={hero.image} alt="..." className="h-full object-cover " data-aos="slide-up" />
       </div>
     </div>
