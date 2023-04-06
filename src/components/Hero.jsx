@@ -12,7 +12,7 @@ const Hero = () => {
       right-0 
       bg-primaryLinear 
       bottom-0 -z-10">
-        <h1 className="md:rotate-90 sm:rotate-0 absolute sm:top-[5%] sm:right-[20%] md:top-[39%] md:right-[-40%]  text-[#EAF2FA]">{hero.firstName}{" "}
+        <h1 className="md:rotate-90 sm:rotate-0 absolute sm:top-[5%] sm:right-[20%] md:top-[43%] md:right-[-40%]  text-[#EAF2FA]">{hero.firstName}{" "}
           <span className="text-dark_primary">{hero.LastName}</span>
         </h1>
       </div>
@@ -35,7 +35,7 @@ const Hero = () => {
       </div>
 
       {/* second colone */}
-      <div className="md:h-[37rem] sm:h[30rem] h-96" >
+      <div className="md:h-[37rem] h-96">
         <img src={hero.image} alt="..." className="h-full object-cover " data-aos="slide-up" />
       </div>
     </div>
