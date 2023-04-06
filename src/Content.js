@@ -131,7 +131,7 @@ export const content = {
         logo: services_logo2,
       },
       {
-        title: "reliability",
+        title: "Reliability",
         para: "Reliability skills help me complete my tasks in a timely and accurate manner, comply with rules, be accountable for my actions, respect confidentiality and maintain a high level of professionalism, which increases the trust of management, colleagues and clients and ensures success in my work.",
         logo: services_logo3,
       },
