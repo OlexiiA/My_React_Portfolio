@@ -38,7 +38,7 @@ const Hero = () => {
         <div className="flex justify-end">
           {/* <a href="https://t.me/OlexiiA" alt="..." className="btn">{hero.btnText}</a> */}
          
-          <button onClick={handleDownload} className="btn">Download CV</button>
+          <button onClick={handleDownload} className="btn hover:bg-dark_primary hover:text-[#EAF2FA]">Download CV</button>
           
         </div>
         <div className="flex flex-col gap-10 mt-10">
