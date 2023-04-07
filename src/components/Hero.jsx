@@ -1,8 +1,22 @@
 import { content } from "../Content"
 
 const Hero = () => {
-
+  
   const { hero } = content;
+
+  const handleDownload = () => {
+    fetch("./src/assets/Olexii_CV.pdf")
+      .then((response) => response.blob())
+      .then((blob) => {
+        const url = window.URL.createObjectURL(new Blob([blob]));
+        const link = document.createElement("a");
+        link.href = url;
+        link.setAttribute("download", "Olexii_CV.pdf");
+        document.body.appendChild(link);
+        link.click();
+        link.parentNode.removeChild(link);
+      });
+  };
 
   return <section id="home">
     <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
@@ -23,9 +37,9 @@ const Hero = () => {
         <br />
         <div className="flex justify-end">
           {/* <a href="https://t.me/OlexiiA" alt="..." className="btn">{hero.btnText}</a> */}
-          <a href="./src/assets/Olexii_CV.pdf" download>
-          <button className="btn">Download CV</button>
-          </a>
+         
+          <button onClick={handleDownload} className="btn">Download CV</button>
+          
         </div>
         <div className="flex flex-col gap-10 mt-10">
           {hero.hero_content.map((content, i) => (
