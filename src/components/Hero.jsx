@@ -23,7 +23,7 @@ const Hero = () => {
         <br />
         <div className="flex justify-end">
           {/* <a href="https://t.me/OlexiiA" alt="..." className="btn">{hero.btnText}</a> */}
-          <a href="https://github.com/OlexiiA/My_React_Portfolio/blob/6e61ac04fced7202954319f6a38bb7aa0660948d/src/assets/Olexii_CV.pdf" download>
+          <a href="src\assets\Olexii_CV.pdf" download>
           <button className="btn">Download CV</button>
           </a>
         </div>
