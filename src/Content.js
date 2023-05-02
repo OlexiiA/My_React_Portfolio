@@ -19,18 +19,14 @@ import project4 from "./assets/images/Projects/img4.png";
 import project5 from "./assets/images/Projects/img5.png";
 import project6 from "./assets/images/Projects/img6.png";
 import project7 from "./assets/images/Projects/img7.png";
-import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
 import avatar2 from "./assets/images/Testimonials/avatar2.png";
 import avatar3 from "./assets/images/Testimonials/avatar3.png";
 import avatar4 from "./assets/images/Testimonials/avatar4.png";
 
-// import Hireme_person from "./assets/images/Hireme/person.png";
-import Hireme_person2 from "./assets/images/Hireme/person.png";
+import Hireme_person from "./assets/images/Hireme/person.png";
 
-
-// import icons from react-icons
 import { GrMail } from "react-icons/gr";
 import { MdArrowForward, MdCall } from "react-icons/md";
 import { FaTelegram } from "react-icons/fa";
@@ -141,7 +137,7 @@ export const content = {
   Projects: {
     title: "Projects",
     subtitle: "MY OWN AND TEAM PROJECTS",
-    image: person_project,
+    image: Hero_person,
     project_content: [
       
       {
@@ -215,8 +211,7 @@ export const content = {
     title: "Hire Me",
     subtitle: "FOR YOUR COMPANY",
     image1: Hireme_person,
-    image2: Hireme_person2,
-    para: "I am a front-end developer looking for a permanent job. My goal is to become part of a professional team, acquire new knowledge and skills, while at the same time contributing to a common cause and finding satisfaction in my work.",
+    para: "I am a Full Stack developer looking for a permanent job. My goal is to become part of a professional team, acquire new knowledge and skills, while at the same time contributing to a common cause and finding satisfaction in my work.",
     btnText: "Hire Me",
   },
   Contact: {
