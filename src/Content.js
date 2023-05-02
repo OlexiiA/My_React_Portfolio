@@ -18,6 +18,7 @@ import project3 from "./assets/images/Projects/img3.png";
 import project4 from "./assets/images/Projects/img4.png";
 import project5 from "./assets/images/Projects/img5.png";
 import project6 from "./assets/images/Projects/img6.png";
+import project7 from "./assets/images/Projects/img7.png";
 import person_project from "./assets/images/Projects/person.png";
 
 import avatar1 from "./assets/images/Testimonials/avatar1.png";
@@ -64,7 +65,7 @@ export const content = {
   ],
   hero: {
     title: "Junior Developer",
-    firstName: "OLEXII",
+    firstName: "OLEKSII",
     LastName: "ANDRIUSHCHENKO",
     btnText: "Hire Me",
     image: Hero_person,
@@ -142,6 +143,12 @@ export const content = {
     subtitle: "MY OWN AND TEAM PROJECTS",
     image: person_project,
     project_content: [
+      
+      {
+        title: "Yammy app",
+        image: project7,
+        link: "https://smisyuk4.github.io/yummy-react-frontend/",
+      },
       {
         title: "Icecream",
         image: project1,

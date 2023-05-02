@@ -1,22 +1,8 @@
 import { content } from "../Content"
 
 const Hero = () => {
-  
-  const { hero } = content;
 
-  // const handleDownload = () => {
-  //   fetch("https://github.com/OlexiiA/My_React_Portfolio/blob/6e61ac04fced7202954319f6a38bb7aa0660948d/src/assets/Olexii_CV.pdf")
-  //     .then((response) => response.blob())
-  //     .then((blob) => {
-  //       const url = window.URL.createObjectURL(new Blob([blob]));
-  //       const link = document.createElement("a");
-  //       link.href = url;
-  //       link.setAttribute("download", "Olexii_CV.pdf");
-  //       document.body.appendChild(link);
-  //       link.click();
-  //       link.parentNode.removeChild(link);
-  //     });
-  // };
+  const { hero } = content;
 
   return <section id="home">
     <div className="min-h-screen relative flex md:flex-row flex-col-reverse md:items-end justify-center items-center">
@@ -37,9 +23,6 @@ const Hero = () => {
         <br />
         <div className="flex justify-end">
           <a href="https://t.me/OlexiiA" alt="..." className="btn">{hero.btnText}</a>
-         
-          {/* <button onClick={handleDownload} className="btn hover:bg-dark_primary hover:text-[#EAF2FA]">Download CV</button> */}
-          
         </div>
         <div className="flex flex-col gap-10 mt-10">
           {hero.hero_content.map((content, i) => (

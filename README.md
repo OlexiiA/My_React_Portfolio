@@ -1,3 +1,6 @@
+
+# run project: npm run dev;
+
 # packages:
 + tailwind css - https://tailwindcss.com/docs/installation
 + vite js - https://vitejs.dev/guide/

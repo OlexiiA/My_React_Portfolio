@@ -14,14 +14,14 @@ import Navbar from "./Layouts/Navbar"
 
 const App = () => {
   useEffect(() => {
-   Aos.init({
-    duration: 1800,
-    offset: 100,
-   })
+    Aos.init({
+      duration: 1800,
+      offset: 100,
+    })
   }, []);
   return (
     <div className="">
-      <Navbar/>
+      <Navbar />
       <Hero />
       <Skills />
       <Service />
@@ -30,7 +30,7 @@ const App = () => {
       <Hireme />
       <Contact />
       <footer className="py-3 text-center">
-        <h6 className="mb-3">OLEXII ANDRIUSHCHENKO</h6>
+        <h6 className="mb-3">OLEKSII ANDRIUSHCHENKO</h6>
         <p>©️ All CopiRigts Reserved 2023</p>
       </footer>
     </div>
