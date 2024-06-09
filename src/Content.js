@@ -60,7 +60,7 @@ export const content = {
     },
   ],
   hero: {
-    title: "Junior Developer",
+    title: "Full-Stack Developer",
     firstName: "OLEKSII",
     LastName: "ANDRIUSHCHENKO",
     btnText: "Hire Me",
