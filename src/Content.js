@@ -68,7 +68,7 @@ export const content = {
     hero_content: [
       {
         count: "1+",
-        text: "Years of web development experience",
+        text: "Over 1 year of web development experience",
       },
       {
         count: "7+",
@@ -82,32 +82,32 @@ export const content = {
     skills_content: [
       {
         name: "HTML",
-        para: "Basic knowledge",
+        para: "Proficient in HTML",
         logo: html,
       },
       {
         name: "CSS",
-        para: "Basic knowledge",
+        para: "Proficient in CSS",
         logo: css,
       },
       {
         name: "JavaScript",
-        para: "Basic knowledge",
+        para: "Experienced with JavaScript",
         logo: js,
       },
       {
         name: "React js",
-        para: "Basic knowledge",
+        para: "Skilled in React.js",
         logo: reactjs,
       },
       {
         name: "ReactNative",
-        para: "Basic knowledge",
+        para: "Skilled in React Native",
         logo: native,
       },
       {
         name: "Node js",
-        para: "Basic knowledge",
+        para: "Experienced with Node.js",
         logo: nodejs,
       },
     ],
