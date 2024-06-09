@@ -46,9 +46,9 @@ const Skills = () => {
         </div>
         
         <ul className="list-decimal px-4 font-Poppins sm:text-sm text-xs !leading-7" >
-          <li>I try to read some information about best practices every day.</li>
-          <li>I spend a lot of time practicing coding.</li>
-          <li>I try to write clean, declarative code.</li>
+          <li>I regularly familiarize myself with best practice recommendations to stay abreast of current trends.</li>
+          <li>I devote a lot of time to honing my programming skills, but I also make time for other interests.</li>
+          <li>I strive to write clean and understandable code that would be easy to maintain and expand.</li>
         </ul>
        
         <div className="flex justify-end">

@@ -119,17 +119,17 @@ export const content = {
     service_content: [
       {
         title: "Stress resistance",
-        para: "This skill helps me effectively manage my emotions and behavior during stressful situations, and it is also a skill that helps prevent burnout, which in turn helps balance workload and manage emotional reactions to prolonged work, thereby increasing productivity and improving work quality.",
+        para: "My ability to effectively manage emotions and behavior during stressful situations allows me to work productively and without tension even in challenging conditions. This skill also helps prevent burnout, ensuring a balanced workload and managing emotional reactions to prolonged work.",
         logo: services_logo1,
       },
       {
         title: "Teamwork",
-        para: "Teamwork skills help me work effectively with different team compositions, share knowledge and experience, respect the opinions of others, improve the quality of my decisions, increase productivity and achieve the overall goals of the company.",
+        para: "My teamwork skills enable me to collaborate effectively with various teams, share knowledge and experience, respect the opinions of others, improve the quality of my decisions, increase productivity, and achieve the company’s overall goals.",
         logo: services_logo2,
       },
       {
         title: "Reliability",
-        para: "Reliability skills help me complete my tasks in a timely and accurate manner, comply with rules, be accountable for my actions, respect confidentiality and maintain a high level of professionalism, which increases the trust of management, colleagues and clients and ensures success in my work.",
+        para: "My reliability skills help me complete tasks in a timely and accurate manner, comply with rules, be accountable for my actions, respect confidentiality, and maintain a high level of professionalism, which increases the trust of management, colleagues, and clients and ensures success in my work.",
         logo: services_logo3,
       },
     ],
