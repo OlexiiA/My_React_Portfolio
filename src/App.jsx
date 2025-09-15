@@ -31,7 +31,7 @@ const App = () => {
       <Contact />
       <footer className="py-3 text-center">
         <h6 className="mb-3">OLEKSII ANDRIUSHCHENKO</h6>
-        <p>©️ All CopiRigts Reserved 2024</p>
+        <p>©️ All CopiRigts Reserved 2025</p>
       </footer>
     </div>
   );

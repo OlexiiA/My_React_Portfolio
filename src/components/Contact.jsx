@@ -14,7 +14,7 @@ const Contact = () => {
       'service_atdvuvq',
       'template_vrpioif',
       form.current,
-      'QDRwSxUluuVFAavdZ')
+      'skMf3a0fqcvX4V3Th')
       .then((result) => {
         console.log(result.text);
         form.current.reset();
